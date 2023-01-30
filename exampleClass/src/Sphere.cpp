@@ -27,3 +27,13 @@ double Sphere::calcVolume()
 {
     return 4 / 3 * M_PI * std::pow(radius, 3);
 }
+
+double Sphere::getSurfaceArea()
+{
+    return surfaceArea;
+}
+
+double Sphere::getVolume()
+{
+    return volume;
+}

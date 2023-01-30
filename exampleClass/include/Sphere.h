@@ -27,15 +27,9 @@ class Sphere
     void setRadius(double r);
 
     // Public functions: get information about the sphere (SA)
-    double getSurfaceArea()
-    {
-        return surfaceArea;
-    }
+    double getSurfaceArea();
 
-    double getVolume()
-    {
-        return volume;
-    }
+    double getVolume();
 
     private:
 
